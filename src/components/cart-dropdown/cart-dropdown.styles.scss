@@ -11,6 +11,12 @@
   top: 90px;
   right: 40px;
   z-index: 5;
+
+  .empty-message {
+    font-size: 18px;
+    margin: 50px auto;
+    color:black;
+  }
  
   .cart-items {
     height: 240px;
@@ -22,6 +28,7 @@
     overflow: auto;
     color: rgba(80, 80, 80, 0);
     transition: all 0.3s;
+
  
     &::-webkit-scrollbar {
       width: 14px;
